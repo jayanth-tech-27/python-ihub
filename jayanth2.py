@@ -12,3 +12,11 @@ x1=int(input("enter the value of x1"))
 x2=int(input("enter the value of x2"))
 res1=x1-x2
 print("the result set is ",res1)
+
+
+print(Product_Info[::-1])
+print()
+print(Product_Info[1:5:1])
+print()
+print(Product_Info[-1:-5:-1])
+print()

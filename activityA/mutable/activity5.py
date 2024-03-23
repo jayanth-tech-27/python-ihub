@@ -1,0 +1,17 @@
+import time 
+L1=[]
+print(L1)
+print()
+print("==adding the products")
+L1.append(1001)
+L1.append("mobbile_2")
+L1.append(271242)
+L1.append("samsung")
+print(L1)
+print("===removing the products ")
+L1.remove(1001)
+L1.remove(271242)
+print()
+print(L1)
+time.sleep(2)
+print("end of code ")
