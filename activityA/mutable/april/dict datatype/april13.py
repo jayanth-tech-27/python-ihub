@@ -1,0 +1,12 @@
+import time
+D1={7:120,3:32,1:17}.items()
+print(D1)
+print()
+D2=sorted(D1)
+print(D2)
+print()
+D2=sorted(D1,reverse=True)
+print(D2)
+print()
+time.sleep(2)
+print("end of code")

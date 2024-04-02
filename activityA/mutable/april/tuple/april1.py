@@ -1,0 +1,13 @@
+import time
+T1=()
+print(T1)
+print()
+print(type(T1))
+print()
+T2=tuple()
+print()
+print(T2)
+print(type(T2))
+print()
+time.sleep(2)
+print("end of code")
