@@ -1,0 +1,15 @@
+import time
+S1={1001,1002,1003,1004,1005}
+print(S1)
+print()
+print(type(S1))
+print()
+print("using the indexing ------")
+print(S1[0])
+print()
+print("using the slice operator")
+print(S1[0:])
+print()
+print(S1[::-1])
+print()
+time.sleep(2)
