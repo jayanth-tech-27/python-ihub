@@ -19,8 +19,4 @@
 # print("before ",L1)
 # print("after operation",L2)
 
-L1=[3001,3002,3003,2004]
-a=0
-L2=[]
-while(a<len(L1)):
-    if(L1
+

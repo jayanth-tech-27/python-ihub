@@ -33,5 +33,5 @@ while(a<len(L1)):
     if(L1[a] not in L2):
         L2.append(L1[a])
     a+=1
-    print("before :",L1)
-    print("after operator ",L2)
+print("before :",L1)
+print("after operator ",L2)
