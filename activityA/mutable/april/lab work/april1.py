@@ -13,8 +13,10 @@
 # for x1 in range(1,11):
 #     print(number,"x",x1,"=",number*x1)
     
-# num=eval(input("enter the numbers",))
+# # num=eval(input("enter the numbers",))
+# for x in range(1,11):
+#     for y in range(1,11):
+#         print(x,"x",y,"=",x*y,end="\t")
+number=eval(input())
 for x1 in range(1,11):
-    for y in range(1,11):
-        print(x1,"x",y,"=",x1*y,end="\t")
-    
+    print(number,"x",x1,"=",number*x1)
