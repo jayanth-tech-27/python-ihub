@@ -6,5 +6,8 @@
 # print(L2)
 
 L1=[12,12,23,131,1221,1,122]
-for L1 in x:
-    if()
+for x in L1:
+    if(x%2==0):
+        print("evne",x+10)
+    else:
+        print("odd",x+10)
