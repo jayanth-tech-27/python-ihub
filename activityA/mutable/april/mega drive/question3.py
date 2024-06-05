@@ -1,5 +1,3 @@
-
-
 str1="jayanth"
 result=""
 for i in range (len(str1)):
