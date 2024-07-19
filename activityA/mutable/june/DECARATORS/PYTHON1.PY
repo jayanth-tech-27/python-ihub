@@ -18,3 +18,15 @@ def about():
 home('user',True)
 orders('user',False)
 about()
+
+
+# exception handling
+try:
+    x = 5 / 1
+    print(x)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+else:
+    print("Yes nice calculation")
+finally:
+    print("ok")
