@@ -2,10 +2,10 @@
 # if a string is palindrome
 # or not
 
-a='munna'
+a='nan'
 w=''
 for i in a:
-    w=w+i
+    w=i+w
 if(w==a):
     print('it is a palindrome')
 else:
