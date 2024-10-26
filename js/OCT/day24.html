@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a='vanamala jayanath kanna';
+        var b=a.split(/\m/);
+        document.write(b)
+    </script>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var a=/world/;
+      var b=a.test('hello world')
+      document.write(b)
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Corrected regular expression to match one or more word characters
+        var a = /\w+/; // Changed /w+/ to /\w+/
+        var b = a.exec('hello world'); // Execute the regex on the string
+
+        // Output the result of the exec function
+        document.write("Matched word: " + b[0]); // b[0] contains the matched string
+    </script>
+</body>
+</html>

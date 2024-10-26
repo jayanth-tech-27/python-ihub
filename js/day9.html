@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+</head>
+<body>
+    <script>
+        var email = window.prompt("Enter an email address:");
+        var regex = /^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\.com$/;  // Corrected regex for Gmail or Yahoo address validation
+        var isValid = email.match(regex);
+
+        if (isValid != null) {
+            document.write(email + ": it is a valid Gmail or Yahoo address.");
+        } else {
+            document.write(email + ": it is not a valid Gmail or Yahoo address.");
+        }
+        document.write("<hr>");
+    </script>
+</body>
+</html>

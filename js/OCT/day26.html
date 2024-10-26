@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gmail=window.prompt("enter the gmail account:")
+        var obj1=gmail.match(/w(A-A-Za-z0-9)*@gmail.com/g)
+            if(obj1!=null)
+            {
+                document.write(gmail+'it is gmail.com')
+                document.write('<hr>')
+            }else{
+                document.write((gmail+'it is not a gmail'))
+            }
+        
+    </script>
+</body>
+</html>

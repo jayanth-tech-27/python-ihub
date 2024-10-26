@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gmail = window.prompt("Enter the email:");
+        // Correct regex to match valid Gmail or Yahoo accounts
+        var obj1 = gmail.match(/^[A-Za-z0-9._%+-]+@(gmail|yahoo)\.com$/);
+        
+        if (obj1 != null) {
+            document.write(gmail + ': it is a valid Gmail or Yahoo account');
+        } else {
+            document.write(gmail + " : it is not a valid Gmail or Yahoo account");
+        }
+    </script>
+    
+</body>
+</html>

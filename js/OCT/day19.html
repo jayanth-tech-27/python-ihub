@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Object Example</title>
+</head>
+<body>
+    <h1>Working with Date Object</h1>
+    <p id="dateDisplay"></p>
+    <script>
+        const now = new Date();
+        const day = now.getDate();
+        const month = now.getMonth() + 1; // Months are 0-based
+        const year = now.getFullYear();
+        const hours = now.getHours();
+        const minutes = now.getMinutes();
+
+        // Custom formatted date and time
+        const formattedDate = `${day}/${month}/${year}`;
+        const formattedTime = `${hours}:${minutes}`;
+        document.getElementById("dateDisplay").innerHTML = `Current date is: ${formattedDate} <br> Current time is: ${formattedTime}`;
+    </script>
+</body>
+</html>

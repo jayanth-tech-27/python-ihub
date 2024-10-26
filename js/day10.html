@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function test_case1()
+        {
+            document.write("this is function in js")
+            document.write("<hr>")
+        }
+        test_case1()
+    
+    </script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+    <script>
+      function test_case1(...obj1) {
+        let s1 = 0;
+        for (var a = 0; a < obj1.length; a++) {
+          s1 = s1 + obj1[a];
+        }
+        document.write("sum of arguments is: " + s1);
+        document.write("<hr>");
+      }
+      test_case1();
+      test_case1(100);
+      test_case1(100, 200);
+      test_case1(100, 200, 300);
+    </script>
+</body>
+</html>

@@ -1,65 +1,120 @@
+table,td,th{
+    border: solid black;
+    border-collapse: collapse  ;
+}
+table{
+    text-align: left;
+}
+td,th{
+    padding: 23px;
+}
+td,th{
+    text-align: center;
+}
+body{
+    background-color: blue;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #0047ab; /* Blue background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    background-color: #3267d6;
 }
 
 .container {
-    background-color: #fff;
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
     width: 300px;
+    text-align: center;
+    position: relative;
 }
 
-.close {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
-    color: #000;
-    cursor: pointer;
-}
-
-h1 {
-    font-size: 18px;
+h2 {
+    font-size: 1.2em;
     margin-bottom: 20px;
-    color: #000;
 }
 
-input[type="email"],
-input[type="password"] {
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    border: 1px solid #ddd;
 }
 
-.signup-btn {
-    background-color: #ff4500; /* Orange button */
-    color: white;
+button {
+    width: 100%;
     padding: 10px;
+    background-color: #3267d6;
+    color: white;
     border: none;
     border-radius: 5px;
-    width: 100%;
     cursor: pointer;
-    font-size: 16px;
 }
 
-.signup-btn:hover {
-    background-color: red; /* Darker orange on hover */
+button:hover {
+    background-color: #244a9e;
 }
 
-.already-account {
-    margin-top: 10px;
-    font-size: 14px;
-    color:orange;
+p {
+    margin-top: 15px;
+    font-size: 0.9em;
 }
 
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px
+} */
+ 

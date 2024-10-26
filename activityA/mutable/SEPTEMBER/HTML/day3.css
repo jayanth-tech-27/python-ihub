@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex; /* Flexbox applied to body */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: #f0f0f0;
+}
+
+input{
+    width:fit-content;
+    padding: 2px;
+    width: 255px;
+    border: 1px solid;
+    border-radius: 20pc;
+}
+button :hover{
+    background-color: yellow;
+
+}
+button{
+    padding: 1pc;
+    color:red;
+    border:none
+    border-radius 10pc;
+    cursor: pointer;
+}
